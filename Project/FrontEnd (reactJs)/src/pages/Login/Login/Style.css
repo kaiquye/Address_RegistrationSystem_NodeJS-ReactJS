@@ -1,0 +1,49 @@
+.formularioLogin{
+    margin-top: 10px;
+}
+.formularioLogin input{
+    padding: 8px;
+    width: 100%;
+    border: 1px solid;
+}
+.formularioLogin div {
+    margin: 13px;
+    display: flex;
+}
+.formularioLogin div label{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    color: rgb(70, 68, 68);
+}
+.divButtonLogin{
+    display: flex;
+    flex-direction: row;
+}
+.divButtonLogin button{
+    margin: 5px;
+    width: 100%;
+    border-radius: 5px;
+    
+    box-shadow: rgb(28, 75, 28) 1px 1px 0px 1px;
+}
+.divButtonLogin button:hover{
+    cursor: pointer;
+    color: rgb(112, 110, 110);
+    background-color: aliceblue;
+}
+.mensagem{
+    padding: 50px;
+
+}
+.mensagem h1 {
+    text-decoration: none;
+    font-size: 70px;
+    font-family: 'Trebuchet MS', sans-serif ;
+}
+.mensagem h5 {
+    text-decoration:none;
+    font-size: 11px;
+    font-family:  Arial, Helvetica, sans-serif;
+    background-color: rgb(57, 145, 46);
+    padding: 4px;
+    color: rgb(233, 233, 233);
+}
